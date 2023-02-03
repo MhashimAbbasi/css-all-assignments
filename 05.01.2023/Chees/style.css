@@ -1,0 +1,57 @@
+
+
+
+.cheesboard{
+    width: 400px;
+    height: 400px;
+    border : 20px solid #55290D;
+    border-radius: 10px;
+    box-shadow: 0px 0px 09px #4d4e4f;
+    margin: 20px;
+    /* position: absolute; */
+    background-color: #55290D;
+    top: 50px;
+    left: 400px    
+}   
+
+.kingblack{ 
+
+    position: relative;
+    left: 200px;
+    top: 95px;
+
+}
+
+.Row1{
+    margin-top: px;
+    
+    
+}
+
+.Row2{margin-top: -4px;
+
+}
+
+.Row3{margin-top: -4px;
+
+}
+.Row4{margin-top: -4px;
+
+}
+
+.Row5{margin-top: -4px;
+
+}
+
+.Row6{margin-top: -4px;
+
+}
+.Row7{margin-top: -4px;
+
+}
+
+.Row8{
+    margin-top: -4px;
+    
+
+}

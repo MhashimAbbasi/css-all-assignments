@@ -1,0 +1,234 @@
+@font-face {
+    font-family: "my-font";
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+
+* {
+    font-family: "my-font";
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+}
+
+.login-container {
+    height: 100vh;
+}
+
+.my-btn {
+    background-color: orange !important;
+    width: 100%;
+    border-color: orange !important;
+}
+
+.my-header {
+    background: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%);
+}
+
+.theme-btn {
+    color: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%) !important;
+    background-color: #fff !important;
+}
+
+.navbar-brand {
+    margin-bottom: 5px !important;
+}
+
+.my-card {
+    height: 170px !important;
+    cursor: pointer;
+    background: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%);
+}
+
+.my-card>div>h4 {
+    font-size: 18px;
+}
+
+.my-card>div>span {
+    font-size: 14px;
+    color: #000;
+}
+
+.theme-btn-a {
+    background: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%) !important;
+    width: 100%;
+    border-color: orange !important;
+    margin-top: 10px;
+}
+
+.product-price {
+    color: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.del-price {
+    color: grey;
+    font-weight: normal;
+}
+
+.product-card {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.sale-badge {
+    background: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+.theme-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.section-heading {
+    display: flex;
+    align-items: center;
+}
+
+.section-heading>div {
+    flex: 1;
+}
+
+.section-heading>h3 {
+    flex: 1;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+}
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.nav-item>a:hover {
+    background-color: #fff;
+}
+
+.footer {
+    width: 100%;
+    background: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%);
+    padding: 50px 0px;
+}
+
+.social-icons>i {
+    font-size: 30px;
+    margin-top: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.footer-links>h4 {
+    color: #fff;
+}
+
+.footer-links>ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.footer-links>ul>li {
+    color: #fff;
+    line-height: 30px;
+}
+
+.footer-address>h4 {
+    color: #fff;
+}
+
+.footer-address>span {
+    color: #fff;
+}
+
+.footer-links {
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+    padding-left: 30px;
+}
+
+.copyright {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    text-align: center;
+    padding: 10px;
+}
+
+.whatsapp>a {
+    color: #25D366;
+    font-size: 50px;
+    position: fixed;
+    left: 20px;
+    bottom: 200px;
+}
+
+.sidebar {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form-check-input:checked {
+    background: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%) !important;
+    border-color: orange !important
+}
+
+.form-check {
+    margin-top: 10px;
+}
+
+.custom-range::-webkit-slider-thumb {
+    background: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%) !important;
+}
+
+.custom-range::-moz-range-thumb {
+    background: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%) !important;
+}
+
+.custom-range::-ms-thumb {
+    background: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%) !important;
+}
+
+.whatsapp-mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .whatsapp {
+        display: none;
+    }
+
+    .whatsapp-mobile {
+        display: block;
+        width: 100%;
+        background-color: #25D366;
+        position: fixed;
+        bottom: 0px;
+        text-align: center;
+    }
+
+    .whatsapp-mobile>a {
+        color: #fff;
+        font-size: 28px;
+    }
+}

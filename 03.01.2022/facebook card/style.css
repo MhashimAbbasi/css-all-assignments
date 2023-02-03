@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.FR{
+    position: absolute;
+    top: 30%;
+    left: 14%;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.FR h1{
+     color: #1877F2;
+}
+
+body{
+    background-color: #F0F2F5;
+}
+
+header{
+    width: 400px;
+    height: 330px;
+    position: absolute;
+    top: 20%;
+    left: 57%;
+    background:white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 07px #4d4e4f;
+}
+
+.card input{margin-right:12px ;
+            margin-top: 12px;
+            margin-left: 12px;
+            margin-bottom: 12px;
+            padding: 13px;
+
+            width: 85%;
+
+}
+.link{
+    text-align: center;
+    background-color: #1877F2;
+    margin-top :12px;
+    margin-right: 18px;
+    margin-left: 12px;
+    padding: 06px;
+    border-radius: 06px;
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.link1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link1 a{
+    text-decoration: none;S
+    color: #1877F2;
+}
+
+.line{
+    margin-top: 10px;
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+
+.link2{
+    text-align: center;
+    background-color: #36A420;
+    margin-top :20px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 18px;
+    border-radius: 06px;
+}
+
+
+.link2 a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
